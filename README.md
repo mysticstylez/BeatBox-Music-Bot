@@ -124,7 +124,7 @@ Usage:
 
 **?play** 
 
-  Plays a song by searching YouTube, SoundCloud, or the local directory.
+  Plays a song by searching SoundCloud, remote or the local directory.
   If the bot is not in a voice channel, it joins automatically.
 
 **?skip**
