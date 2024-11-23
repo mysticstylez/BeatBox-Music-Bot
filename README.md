@@ -75,6 +75,8 @@ If you are unable to sign up for SoundCloud API access, then follow these steps 
 
 # Install Dependencies
 
+cd into your bot directory
+
 Install Required Libraries: Run the following command to install all required dependencies:
 
     npm install
