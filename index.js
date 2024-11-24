@@ -422,8 +422,8 @@ function playSong(guild) {
 }
 
 function resetInactivityTimer(guildId) {
-  if (timeout) clearTimeout(timeout); // Clear any existing timer
-  startInactivityTimer(guildId);       // Start a new timer
+    if (timeout) clearTimeout(timeout); // Clear existing timer
+    timeout = setTimeout(() => startInactivityTimer(guildId), inactivityTimeout);
 }
 
 function startInactivityTimer(guildId) {
